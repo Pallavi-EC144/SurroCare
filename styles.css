@@ -1,0 +1,160 @@
+/* General Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #FFFFFF 0%, #F3E9DC 100%);
+  margin: 0;
+  padding: 0;
+  color: #333333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+  position: relative;
+}
+
+header img {
+  width: 150px;
+  height: auto;
+  position: absolute;
+  left: 20px;
+}
+
+.header-text {
+  text-align: center;
+  flex-grow: 1;
+}
+
+header h1 {
+  font-size: 48px;
+  color: #5E548E;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+header p {
+  font-size: 18px;
+  color: #2c3e50;
+  font-style: italic;
+}
+
+.search-bar {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.search-bar input {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  font-size: 16px;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #967bb6;
+  padding: 15px 30px;
+  border-radius: 25px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #7b5f95;
+}
+
+.about {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #333;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  color: #2c3e50;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.cta-buttons a {
+  background-color: #FB6F92;
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.cta-buttons a:hover {
+  background-color: #FF1493;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.95);
+  margin-top: 50px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+  font-size: 14px;
+  color: #666;
+}
+
+footer .quick-links,
+footer .social-media,
+footer .contact-info {
+  margin: 20px 0;
+}
+
+footer .quick-links a,
+footer .social-media a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #5E548E;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+footer .quick-links a:hover,
+footer .social-media a:hover {
+  color: #333333;
+}
